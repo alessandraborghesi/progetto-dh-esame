@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item xmlns:dc="http://purl.org/dc/elements/1.1/">
-
+<item xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd">
+	
 		<text xml:id="item-2">
 			<dc:title>Lettera di Ludovico Maria Sforza a Bianca Maria Visconti, dal Castello di Cremona, 30 aprile 1467.</dc:title>
 			<dc:creator>Ludovico Maria Sforza</dc:creator>
@@ -11,11 +11,11 @@
 			<dc:contributor xml:id="AB">Alessandra Borghesi</dc:contributor>
 			<dc:type>Lettera</dc:type>
 			<dc:format>text/html</dc:format>
-			<dc:identifier>file:///C:/Users/aless/Desktop/progetto-DH/item.html</dc:identifier>
+			<dc:identifier xsi:type="dcterms:URI">file:///C:/Users/aless/Desktop/progetto-DH/item.html</dc:identifier>
 			<dc:language>ita</dc:language>
-			<dc:coverage></dc:coverage>
+			<dc:coverage>Milano, Italia</dc:coverage>
 			<dc:source>https://www.lombardiabeniculturali.it/archivi/complessi-archivistici/MIBA002409/</dc:source>
-
+			
 		</text>
-
+	
 </item>
