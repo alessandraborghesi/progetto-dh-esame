@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item xmlns:dc="http://purl.org/dc/elements/1.1/">
+<item xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://example.org/MyProject/">
 	
 		<text xml:id="item-2">
 			<dc:title>Lettera di Ludovico Maria Sforza a Bianca Maria Visconti, dal Castello di Cremona, 30 aprile 1467.</dc:title>
