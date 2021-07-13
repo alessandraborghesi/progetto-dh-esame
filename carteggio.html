@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Bianca Maria Visconti</title>
+		<!--Collegamento CSS Bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<!--Collegamento foglio di stile-->
+	<link rel="stylesheet" href="stile.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<!--Inserire i METADATI-->
+	<meta charset="UTF-8"/> <!--dichiaro il set di caratteri-->
+	<meta http-equiv="refresh" content="30"> <!--per il refresh ogni 30 secondi-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--visualizzazione si adatta al device-->
+</head>
+
+<body>
+
+	<header> <!--Inerire il titolo e lo stemma sforza-->
+		<div class="container-fluid">
+		<h1>Bianca Maria Visconti(1425-1468), duchessa di Milano<img src="immagini/sforza.jpg" alt="Stemma della famiglia Sforza, deriva dalle casate Attendolo e Visconti" id="stemma"/></h1>
+	</div>
+		
+	</header>
+
+<!--Navbar presa da Bootstrap-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar1">
+		  <a class="navbar-brand" href="#">Duchessa di Milano</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarScroll">
+		    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html"><i class="bi bi-house-fill"></i> Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Ducato di Milano</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Catalogo</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Carteggio epistolare</a>
+		        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+		          <li><a class="dropdown-item" href="#">Potenze Estere</a></li>
+		          <li><a class="dropdown-item" href="#">Carteggio interno</a></li>
+		          <li><a class="dropdown-item" href="#">Potenze sovrane</a></li>
+		          <li><hr class="dropdown-divider"></li>
+		          <li><a class="dropdown-item" href="#">Altro</a></li>
+		        </ul>
+		      </li>
+		    </ul>
+		    <form class="d-flex">
+		      <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-success" type="submit">Search</button>
+		    </form>
+		  </div>
+		</nav>	
+
+<!--inserisco titolo del catalogo-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12" id="titolocatalogo">
+					<h3>Carteggio Epistolare</h3>
+				</div>
+			</div>
+		</div>
+
+		
+ 
+ 		<div class="container-fluid"> <!--si chiude a 309-->
+			<div class="row"><!--si chiude a 307-->
+
+				<div class="col-md-3"><!-- in questa colonna ci sono semplici div con dei bottoni. Non sono righe di tabelle-->
+						<div id="latosx">
+						 		<nav aria-label="breadcrumb" id="breadcrumb">
+							  <ol class="breadcrumb">
+							    <li class="breadcrumb-item"><a href="#">Home</a></li>
+							    <li class="breadcrumb-item active" aria-current="page">Carteggio</li>
+							  </ol>
+							</nav>
+								<div class="dropdown"> 
+							  		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							    	<a class="dropdown-item" href="#">Action</a>
+							    	<a class="dropdown-item" href="#">Another action</a>
+							   		<a class="dropdown-item" href="#">Something else here</a>
+							  		</div>
+								</div>
+					      
+					      	<div>
+					      		<h4>Ordina la lista</h4>
+					      		<button type="button" class="btn btn-outline-dark bottoni">A-Z</button>
+					      		<button type="button" class="btn btn-outline-dark bottoni">Z-A</button>
+					      		<button type="button" class="btn btn-outline-dark bottoni">Ordine cronologico</button>
+					     	</div>
+
+					     	<div>
+					      		<h4>Filtra la lista</h4>
+					      		
+					      		
+					      		<button type="button" class="btn btn-outline-dark bottoni">Luoghi</button>
+								
+								<div class="dropdown " id="btndrop">
+								  <button class="btn btn-secondary dropdown-toggle bottoni" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    Date
+								  </button>
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								    <a class="dropdown-item" href="#">Dal matrimonio al titolo ducale (1441-1450)</a>
+								    <a class="dropdown-item" href="#">Fino alla morte di Francesco Sforza (1450-1466)</a>
+								    <a class="dropdown-item" href="#">Co-reggenza con Galeazzo Maria (1466-1468)</a>
+								    
+								  </div>
+								</div>
+
+								
+
+							    	 <div class="dropdown " id="btndrop">
+										  <button class="btn btn-secondary dropdown-toggle bottoni" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										    Persone
+										  </button>
+										  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										    <a class="dropdown-item" href="#">Figli e familiari</a>
+										    <a class="dropdown-item" href="#">Amici e alleati politici</a>
+										    <a class="dropdown-item" href="#">Altri soggetti politici</a>
+										  </div>
+									</div>
+								<button type="button" class="btn btn-outline-dark bottoni">Lettere inviate</button>
+								<button type="button" class="btn btn-outline-dark bottoni">Lettere ricevute</button>
+					    	 
+							</div><!-- in questa colonna ci sono semplici div con dei bottoni. Non sono righe di tabelle-->
+					</div>
+			  	</div> 
+ 
+ 				<div class="col-md-9" ><!-- qui la TAB e le card -->
+ 					
+					<ul class="nav nav-tabs" id="tab">
+						  <li class="nav-item">
+						    <a class="nav-link active" href="#" id="All-tab">All</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">Carteggio Interno</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">Potenze Estere</a>
+						  </li>
+						 
+						   <li class="nav-item">
+						    <a class="nav-link" href="#">Potenze Sovrane</a>
+						  </li>
+						   <li class="nav-item">
+						    <a class="nav-link" href="#">Altro</a>
+						  </li>
+						</ul>
+
+						<!-- inserisco 3 card con immagine -->
+					    <div class="row">
+					    	<div class="col-md-4">
+								<div class="card card5">
+									
+								  <div class="card-body">
+								    <h6 class="card-title">1. ASMn, Archivio Gonzaga, b.1607, n. 295.</h6>
+								    <p class="card-text">
+								    	<p><b>Autore:</b> Bianca Maria Visconti </p>
+								    	<p><b>Destinatario:</b> Barbara di Brandeburgo</p>
+								    	<p><b>Luogo:</b> Cremona</p>
+								   		<p><b>Date:</b> 25 giugno 1463</p>
+								   		<p><b>Istituzione fornitrice:</b> Archivio di Stato di Mantova</p>
+									</p>
+								    
+								    <a href="#" class="btn btn-primary btnmeta">Vai al testo</a>
+								 </div>
+								</div>
+							</div>
+							
+
+							<div class="col-md-4">
+								<div class="card card5">
+								  
+								  <div class="card-body">
+								    <h6 class="card-title">2. ASMi, Carteggio Visconteo-sforzesco, Potenze sovrane, b. 1468, n.18</h6>
+								    <p class="card-text">
+								
+								    	<p><b>Autore:</b> Ludovico Maria Sforza</p>
+								    	<p><b>Destinatario:</b> Bianca Maria Visconti</p>
+								    	<p><b>Luogo:</b> Cremona</p>
+								    	<p><b>Data:</b> 30 aprile 1467</p>
+								    	<p><b>Istituzione fornitrice:</b> Archivio di Stato di Milano</p>
+								    	
+								    </p>
+								    
+								    <a href="item.html" class="btn btn-primary btnmeta">Vai al testo</a>
+
+								  </div>
+								</div>
+							</div>	
+
+							<div class="col-md-4" >
+								<div class="card card5">
+								  <div class="card-body">
+								    <h6 class="card-title">3. ASMi, Carteggio Sforzesco, Carteggio Interno, b.1460, n. 10.</h6>
+								    <p class="card-text">
+								    	<p><b>Autore:</b> Bianca Maria Visconti, Galasio Carcassola </p>
+								    	<p><b>Destinatario:</b> Galeazzo Maria Visconti</p>
+								    	<p><b>Luogo:</b> Cremona</p>
+								    	<p><b>Data:</b> 19 maggio 1468</p>
+								    	<p><b>Istituzione fornitrice:</b> Archivio di Stato di Milano </p>	
+								    </p>
+								    
+								     <a href="#" class="btn btn-primary btnmeta">Vai al testo</a>
+								  </div>
+								</div>
+							</div>	
+
+						</div> 
+					
+			
+						
+                       	<div class="row">
+
+
+                    		<div class="col-md-4">
+                    			
+								<div class="card card5">
+									<div class="container">
+										
+									<div class="card-body">
+									    <h6 class="card-title">4. ASMi, Carteggio Sforzesco, Carteggio Interno, b. 1460, n.47.</h6>
+									    <p class="card-text">
+									    	<p><b>Autore:</b> Borso d'Este</p>
+									    	<p><b>Destinatario:</b> Bianca Maria Visconti</p>
+									    	<p><b>Luogo:</b> Ferrara</p>
+									    	<p><b>Data:</b> 29 luglio 1468</p>
+									    	<p><b>Istituzione fornitrice:</b> Archivio di Stato di Milano</p>
+									    </p>
+									    
+									     <a href="#" class="btn btn-primary btnmeta">Vai al testo</a>
+									 </div>
+									
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-4">
+								
+								<div class="card card5">
+									
+									<div class="container">
+										 
+									<div class="card-body">
+									    <h6 class="card-title">5. ASMi, Carteggio Sforzesco, Carteggio Interno, b. 217, n.216.</h6>
+									    <p class="card-text">
+									    	<p><b>Autore:</b> Ippolita Maria Sforza</p>
+									    	<p><b>Destinatario:</b> Bianca Maria Visconti</p>
+									    	<p><b>Luogo:</b> Napoli</p>
+									    	<p><b>Data:</b> 2 settembre 1468</p>
+									    	<p><b>Istituzione fornitrice:</b> Archivio di Stato di Milano</p>
+									    </p>
+									    
+									     <a href="#" class="btn btn-primary btnmeta">Vai al testo</a>
+									 </div>
+							 	
+							   		</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+							
+								<div class="card card5">
+									
+									<div class="container">
+										
+									<div class="card-body">
+									    <h6 class="card-title">6. ASMi, R.M., reg. 82, n.252 </h6>
+									    <p class="card-text">
+									    	<p><b>Autore:</b> Galeazzo Maria, Cicco Simonetta</p>
+									    	<p><b>Destinatario:</b> Papa Paolo II</p>
+									    	<p><b>Luogo:</b> Milano</p>
+									    	<p><b>Data:</b> 24 ottobre 1468</p>
+									    	<p><b>Istituzione fornitrice:</b> Archivio di Stato di Milano</p>
+									    </p>
+									    
+									     <a href="#" class="btn btn-primary btnmeta">Vai al testo</a>
+									</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>	
+					</div>
+				
+                    <div class="row">
+						<nav aria-label="Page navigation example" id="pagination">
+						  <ul class="pagination">
+						    <li class="page-item">
+						      <a class="page-link" href="#" aria-label="Previous">
+						        <span aria-hidden="true">&laquo;</span>
+						      </a>
+						    </li>
+						    <li class="page-item"><a class="page-link" href="#">1</a></li>
+						    <li class="page-item"><a class="page-link" href="#">2</a></li>
+						    <li class="page-item"><a class="page-link" href="#">3</a></li>
+						    <li class="page-item">
+						      <a class="page-link" href="#" aria-label="Next">
+						        <span aria-hidden="true">&raquo;</span>
+						      </a>
+						    </li>
+						  </ul>
+						</nav>
+					</div>
+				
+			</div>
+
+	</div><!--chiudo il container-->
+	
+    <footer>
+		<div class="info container-fluid p-3">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-md-4">
+						<h3></h3>
+						<p>Il progetto è stato realizzato per la prova finale del corso di <em>Digital Humanities e Patrimonio Culturale</em>, a.a. 2020/2021, nell'ambito della laurea magistrale in Scienze Storiche e Orientalistiche presso l'Università di Bologna.</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Contatti</h3>
+						<p><a href="https://www.unibo.it/it" target="_blank" class="link">Alma Mater Studiorum Università di Bologna</a></p>
+						<p><a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/423307" target="_blank" class="link">Digital Humanities e Patrimonio Culturale</a></p>
+					</div>
+					<div class="col-md-4">
+						<h3>Licenze</h3>
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+						<br>
+						<p class="mt-3">Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" class="link">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Unported</a>.</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="container-fluid bg-light">
+            <p class="text-center text-dark mb-0 p-2">&copy; Copyright 2021 Alessandra Borghesi - Dipartimento di Storia Culture e Civiltà, Università di Bologna.</p>
+        </div>
+	</footer>		
+
+
+
+
+
+
+
+	<!--Collegamento JS di Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</body>
+
+</html>

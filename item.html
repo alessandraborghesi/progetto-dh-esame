@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Bianca Maria Visconti</title>
+		<!--Collegamento CSS Bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<!--Collegamento foglio di stile-->
+	<link rel="stylesheet" href="stile.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<!--Inserire i METADATI-->
+	<meta charset="UTF-8"/> <!--dichiaro il set di caratteri-->
+	<meta http-equiv="refresh" content="30"> <!--per il refresh ogni 30 secondi-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--visualizzazione si adatta al device-->
+	
+	
+
+</head>
+
+<body>
+
+	<header> <!--Inerire il titolo e lo stemma sforza-->
+		<h1>Bianca Maria Visconti(1425-1468), duchessa di Milano <img src="immagini/sforza.jpg" alt="Stemma della famiglia Sforza, deriva dalle casate Attendolo e Visconti" id="stemma"/></h1>
+	</header>
+
+<!--Navbar presa da Bootstrap-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar1">
+		  <a class="navbar-brand" href="#">Duchessa di Milano</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarScroll">
+		    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html"><i class="bi bi-house-fill"></i> Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Ducato di Milano</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Catalogo</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Carteggio epistolare</a>
+		        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+		          <li><a class="dropdown-item" href="#">Potenze Estere</a></li>
+		          <li><a class="dropdown-item" href="#">Carteggio interno</a></li>
+		          <li><a class="dropdown-item" href="#">Potenze sovrane</a></li>
+		          <li><hr class="dropdown-divider"></li>
+		          <li><a class="dropdown-item" href="#">Altro</a></li>
+		        </ul>
+		      </li>
+		    </ul>
+		    <form class="d-flex">
+		      <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-success" type="submit">Search</button>
+		    </form>
+		  </div>
+		</nav>	
+
+
+		
+
+        <div class="container-fluid">
+
+        	<div class="row">
+
+        	<nav aria-label="breadcrumb" id="breadcrumb">
+					  <ol class="breadcrumb">
+					    <li class="breadcrumb-item"><a href="#">Home</a></li>
+					    <li class="breadcrumb-item active" aria-current="page">Carteggio</li>
+					    <li class="breadcrumb-item active" aria-current="page">Lettera n.2</li>
+					  </ol>
+					</nav>
+			</div>
+
+
+        	<div class="row">
+        	
+        		<div class="col-md-3"><!--lato sx con card  metadati-->
+                   
+
+					 <div class="card-header text-center bg-dark text-light">Metadati</div> <!--Creo la tabella per i metadati-->
+					 	<ul class="list-group list-group-flush">
+					 		<li class="list-group-item"><span>Tipo di oggetto:</span><a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=missive" target="_blank" title="Collegamento wordnetweb"> Lettera<sup>WordNet</sup></a>></li>
+					 		<li class="list-group-item"><span>Autore: </span><a href="https://it.wikipedia.org/wiki/Ludovico_il_Moro" target="_blank" title="Pagina wikipedia di Ludovico Maria Sforza">Ludovico Maria Sforza<sup>Wikipedia</sup></a></li>
+					 		<li class="list-group-item"><span>Destinatario:</span><a href="https://it.wikipedia.org/wiki/Bianca_Maria_Visconti" target="_blank" title="Pagina wikipedia di Bianca Maria Visconti"> Bianca Maria Visconti<sup>Wikipedia</sup></a></li>
+					 		<li class="list-group-item"><span>Data: </span>30 aprile 1467 <a href="#"></a><button class="btn btn-danger float-right mt-3" href="#" type="button"><small>Vai alla linea del tempo</small></button></li>
+					 		<li class="list-group-item"><span>Luogo:</span> Castello di <a href="https://www.geonames.org/3177838/cremona.html" target="_blank" title="collegamento Geonames Cremona">Cremona<sup>GeoNames</sup></a> <a href="#"></a><button class="btn btn-danger float-right mt-3" href="#" type="button"><small>Vai alla mappa</small></button></li>
+					 		<li class="list-group-item"><span>Luogo di conservazione: </span><a href="https://www.archiviodistatomilano.beniculturali.it/" target="_blank" title="Collegamento all'Archivio di Stato di Milano">Archivio di Stato di Milano<sup>ASMi</sup></a></li>
+					 		
+					 		<li class="list-group-item"><span><a href="dc-item.xml" target="_blank">XML/DC</a></span></li>
+					 		<li class="list-group-item"><span><a href="TEI-item.xml" target="_blank">XML/TEI</a></span></li>
+					 		<li class="list-group-item"><span><a href="TEI-item.xml" target="_blank">Italia, ASMi, Carteggio visconteo-sforzesco, Carteggio Sforzesco, Potenze Sovrane, busta 1468, unità n. 18</a></span></li>
+                        </ul>
+					
+
+
+				</div> <!--chiudo la col-3-->
+				
+
+        		<div  class="col-md-7"><!--testo della lettera-->
+        			<div id="testolettera">
+        			<h4>ASMI, Carteggio visconteo-sforzesco, Carteggio sforzesco, Potenze sovrane, b. 1468, n. 18; Ludovico Maria
+						Sforza a Bianca Maria Visconti, dal castello di Cremona, 30 aprile 1467</h4>
+        				<p id="lettera">
+						Illustrissima madona. Vostra illustrissima signoria per mie lettere heri fu avisata del mio giungere a <span>Lode</span> et de
+						quanto era seguito fin in quella hora. Per questa mo restarà avisata come heri sira, dopoi fu cenato d’uno pezo
+						insieme col illustrissimo signore duca vostro figliolo et mio fratello, tolse licencia da soa signoria per poterme questa
+						matina ad bona hora aviarme al camino mio, come ho facto, et andai ad allozare et dormire ad casa de <span>Gabriele
+						da Barni</span>, thexaurero et cittadino de quella vostra cità, dal qual fui, per respecto de vostra signoria, benveduto,
+						accarezato et honorato. Poi questa matina, olduta la messa, venne ad disnare ad <span>Pizghitone</span>, dove fui similmente
+						benveduto dal comissario et quelli vostri homini, quali me presentareno doe somme de biava da cavalli. Essendo
+						poi circa le xviiii° hore, montato ad cavallo per venire verso questa vostra devotissima cità, nela quale giunse circa le
+						xxii hore sano et de bona voglia, havendo incontrato <span>Iohannefrancesco Stangha de là d’<span>Aquanegra</span></span> uno bon pezo,
+						et ad <span>Marasco</span> tutti questi vostri officiali, insieme con <span>Pagano Ponzon</span>, <span>Stefano da <span>Cambiago</span></span>, <span>Carlo Tinto</span>, <span>Fabricio</span> et <span>Cosme Ponzoni</span>, <span>Bartholomeo da Salerno</span>, <span>Baldesarre di Melii</span>, <span>Iohanne Regazo</span>, <span>Iohanne da Rezo</span>,<span> Iohanne Bono</span>, <span>Marsilio Fondu[lo]</span> et ser <span>Simone da <span>Spoleto</span></span>, quali tutti recolti da mi con una bona cera et con quello megliore modo me fu possibile, me fecero compagnia fin qua al castello, qual ho trovato ornato de tanti belli et ameni zardini che ‘l me pare essere tutto renovato et intrato nel paradiso terrestre, et quanto vostra excellentia lo vederà, non
+						dubito serà, in questo, de quello medesmo apparere sono io, oltra ch’io gli farò fare qualchi melioramenti quando
+						me avanzarà tempo, acioché, venendo qua come ha rasonato più volte de volerli venire, possi, presso ale grande
+						occupatione et continui affanni ha, prendere qualche recreatione et piacere. Ali pedi et gratia de vostra signoria de
+						continuo me recomando. 
+						Ex castro vostro <span>Cremone</span>, <span>die ultimo Aprilis 1467</span>. Eiusdem illustrissime dominationis
+						vestre devotissimus filius et servitor <span>Ludovicus Maria Sfortia Vicecomes</span>.
+						</p>
+					</div>
+
+                 </div>
+
+                 <div class="col-md-2">
+                 	<div class="card card6">
+                 		<p><a href="https://voyant-tools.org/?corpus=f25e12971923f56773f3c807f10a396a&panels=cirrus,reader,trends,summary,contexts" title="Link a Voyant Tools">Voyant Tools</a></p>
+                 	</div>
+                   <div class="card card6">
+                   	<p><em><b>Parole chiave:</b></em> <a href="#">duca</a>, <a href="#">Lodi</a>, <a href="#">Gabriele da Barni</a>, <a href="#">Pizzighettone</a>, <a href="#">Acquanegra</a>, <a href="#">Stanga</a>, <a href="#">Marasco</a>, <a href="#">Ponzoni</a>, <a href="#">Meli</a>, <a href="#">Cremona</a>, <a href="#">Ludovico Maria Sforza</a> </p>
+                   </div>
+                 </div>	
+			</div>
+		</div>
+
+		
+
+            <div class="container-fluid">
+            <div class="row">
+            	
+            	<div class="col-md-12" id="scopridipiù">
+            		<h4>Scopri di più</h4>
+            		<div class="row">
+
+            			<div class="col-md-6" >
+            				<div class="container">
+            	   	<div class="card card2">
+            	   		<div class="row no-gutters">
+                          <div class="col-md-4">
+						  <img src="immagini/ilmoro.jpg" class="card-img-top imgcard2" alt="Ritratto di Ludovico il Moro"></div>
+						  <div class="col-md-8">
+						  <div class="card-body">
+						  	<h5 class="titolocard2">Ludovico Maria Sforza, detto <em>Il Moro</em>, Duca di Milano</h5>
+						    <p class="card-text">Ludovico il Moro (Milano, 27 luglio 1452 - Loches, 27 maggio 1508) è stato <a href="#">duca di Bari</a> dal 1479, reggente del <a href="#">Ducato di Milano</a> dal 1480 al 1494 affiancanco il nipote <a href="#">Gian Galeazzo Maria Sforza</a> e, infine, duca egli stesso dal 1494 al 1499.</p>
+						    <button type="button" class="btn btn-outline-dark bottoni"><a href="#">Vai alla scheda</a></button>
+						  </div>
+						</div>
+						</div>
+					</div>
+					</div>
+            	</div>
+
+            		<div class="col-md-6">
+            			<div class="container">
+            			<div class="card card2">
+            				<div class="row">
+            					<div class="col-md-4">
+						  <img src="immagini/ritrattoBianca_Maria_Visconti.jpg" class="card-img-top imgcard2" alt="Ritratto di Bianca Maria Visconti, Bonifacio Bembo"></div>
+						  <div class="col-md-8">
+						  <div class="card-body">
+						  	<h5 class="titolocard2">Bianca Maria Visconti, Duhessa di Milano</h5>
+						    <p class="card-text">Bianca Maria Visconti (Settimo Pavese, 31 marzo 1425 - Melegnano, 23 ottobre 1468) era figlia legittimata e unica erede di <a href="#">Filippo Maria Visconti, Duca di Milano</a>, e di <a href="#">Agnese del Maino</a>. Fu moglie di <a href="#">Francesco Sforza</a>, Duchessa di Milano dal 1450 al 1466 e madre dei duchi <a href="#">Galeazzo Maria Sforza</a> e <a href="#">Ludovico il Moro</a></p>
+						    <button type="button" class="btn btn-outline-dark bottoni"><a href="persona.html" title="Collegamento alla scheda persona di Bianca Maria Visconti">Vai alla scheda</a></button>
+						  </div>
+						</div>
+						</div>
+						</div>
+						</div>
+            		</div>
+
+            	
+                   
+                
+
+            	</div>
+            </div>	
+            </div>
+
+		</div>
+
+		
+
+                    
+
+                   
+
+
+
+
+
+
+
+
+	 <footer>
+		<div class="info container-fluid p-3">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-md-4">
+						<h3></h3>
+						<p>Il progetto è stato realizzato per la prova finale del corso di <em>Digital Humanities e Patrimonio Culturale</em>, a.a. 2020/2021, nell'ambito della laurea magistrale in Scienze Storiche e Orientalistiche presso l'Università di Bologna.</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Contatti</h3>
+						<p><a href="https://www.unibo.it/it" target="_blank" class="link">Alma Mater Studiorum Università di Bologna</a></p>
+						<p><a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/423307" target="_blank" class="link">Digital Humanities e Patrimonio Culturale</a></p>
+					</div>
+					<div class="col-md-4">
+						<h3>Licenze</h3>
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+						<br>
+						<p class="mt-3">Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" class="link">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Unported</a>.</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="container-fluid bg-light">
+            <p class="text-center text-dark mb-0 p-2">&copy; Copyright 2021 Alessandra Borghesi - Dipartimento di Storia Culture e Civiltà, Università di Bologna.</p>
+        </div>
+	</footer>		
+
+
+
+
+
+
+
+	<!--Collegamento JS di Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</body>
+
+</html>

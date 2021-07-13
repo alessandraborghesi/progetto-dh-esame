@@ -1,0 +1,372 @@
+
+#All-tab {
+	background-color: #ffecb3;
+}
+
+body {
+	background-color: #ffecb3 ;
+	
+}
+
+.bottoni {
+	color:black;
+	background-color:#99d6ff;
+	margin:10px;
+}
+
+.breadcrumb {
+	 background-color: #ffecb3 !important;
+
+}
+#btncarosello {
+ 	background-color:#99d6ff; 
+ }
+
+ .btnmeta {
+	margin:7px;
+}
+
+.btnmetadati {
+	margin: 70px;
+}
+
+ #btnordina {
+	background-color: #99d6ff;
+}
+
+.card1 {
+	background-color: white;
+	margin: 20px;
+	border-style: solid;
+	border-color: #4775d1;
+	border-width: 5px;
+} /*card nell'index*/
+
+.card2 {
+	margin: 10px;
+	width: 630px;
+	height: 304px;
+} /* card persone nella pagina dell'item*/
+
+.card3 {
+	margin-top: 15px;
+	height: 700px
+	width:470px;
+	font-size: 18px;
+	line-height: 15px;
+	background-color: #ffffff;
+}
+
+.card7 {
+	margin: 10px;
+	width: 323px;
+	height: 550px;
+	font-size: 18px;
+	line-height: 15px;
+
+}
+
+.card4 {
+	margin:15px;
+	padding: 10px;
+	max-height: 500px
+	width:500px;
+	line-height: 15px;
+}
+
+.card5 {
+	height: 520px;
+	max-width: 500px;
+	margin:15px;
+}
+
+#card5 {
+	margin:30px;
+}
+
+.card6 {
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+#carosello {
+    background-color: rgba(26, 26, 26, .7);
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#carousel {
+	padding:30px;
+}
+
+#esploracataloghi {
+	margin: 70px;
+}
+
+footer {
+	background-color: #4775d1;
+	margin-top: 20px;
+}
+
+h1 {
+	font-family: papyrus;
+	font-size: 50px;
+	font-weight: bold;
+	margin-left:100px;
+	text-shadow: 2px 2px 5px #ffecb3;
+	color: white;
+
+}
+
+
+/*
+h1 #stemma {
+	margin-right: 30px;
+	margin-left: 100px;
+	text-align: center;
+	
+}*/
+
+h2, h3, h4, h5, p {
+	font-family: Garamond;
+}
+
+
+h3 {
+	font-weight: bold;
+	font-size:40px;
+	text-align: center;
+	padding:10px;
+
+}
+
+h4 {
+	font-weight: bold;
+
+} /*titolo lettera*/
+
+h5 {
+	font-weight: bold;
+	font-family: Garamond;
+	font-size: 40px;
+	color: #4775d1;
+
+}
+
+header {
+	background-color: #4775d1;
+	padding-top:20px ;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 300px;
+}
+
+
+
+#headercarteggio {
+	height: 240px;
+	padding: 20px;
+}
+
+.iclettera {
+	font-size: 150px;
+	padding:30px;
+}
+
+.imgcard2 {
+	height: 300px;
+	width:220px;
+}
+
+#latosx {
+	margin:10px;
+	margin-left:20px;
+}
+
+.link {
+	color:black;
+}
+
+#lettera {
+	font-size: 20px;
+	line-height: 25px;
+}
+
+#lunetta {
+	margin-bottom: 60px;
+}
+
+.navbar {
+	margin-bottom: 20px;
+
+}
+
+#pagination {
+	margin-left: 700px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#ritratto1 {
+	height: 240px;
+	width: 150px;
+}
+
+#ritratto2 {
+	width: 325px;
+	height: 250px;
+}
+
+#scopridipiù {
+	background-color: #ffd480;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+.tab {
+	background-color: #ffecb3;
+}
+
+#testolettera {
+	background-color: white;
+	
+	padding: 20px;
+}
+
+.titolocard2 {
+	font-size: 20px;
+}
+
+#titolocatalogo {
+	padding-top:30px;
+	padding-bottom: 30px;
+	padding-right: 500px;
+	padding-left: 500px;
+	background-color: #ffd480;
+	border-radius: 10px; 
+	text-shadow: 2px 2px 5px black;
+	color: darkred;
+	margin-bottom: 15px;
+} /* titolo catalogo e carteggio*/
+
+#titoloitem {
+	background-color: #ffd480;
+	text-shadow: 2px 2px 5px yellow;
+
+}
+
+#tragedia {
+	width: 320px;
+	height: 250px;
+}
+
+#stemma {
+	width: 110px;
+	height: 150px;
+	margin-left: 940px;
+
+}
+
+#stemmacarteggio {
+	width: 110px;
+	height: 150px;
+	margin-left: 940px;
+	margin-top: 0px;
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+

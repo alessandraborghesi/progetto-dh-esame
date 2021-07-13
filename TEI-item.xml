@@ -1,0 +1,34 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  	<teiHeader>
+	 	<fileDesc>
+
+	 		<titleStmt>
+	 			<title>ASMi, Carteggio Sforzesco, Potenze Sovrane, b. 1468, n. 18: trascrizione digitale</title>
+	 			<respStmt>
+	 				<resp>Trascrizione</resp>
+	 				<name xml:id="AB">Alessandra Borghesi</name>
+	 			</respStmt>
+	 		</titleStmt>
+
+	 		<publicationStmt>
+	 			<distributor>Alma Mater Studiorum, Università di Bologna</distributor>
+	 		</publicationStmt>
+
+	 		<sourceDesc>
+				 <p>Trascritto da fonte analogica</p>
+				 <bibl>Archivio di Stato di Milano, Carteggio visconteo-sforzesco, Carteggio Sforzesco, Potenze Sovrane, b.1468, n.18</bibl>
+	 		</sourceDesc>
+
+	 	</fileDesc>
+	 </teiHeader>
+
+	 <text>
+		<body>
+			<p>Illustrissima madona.</p> 
+			<p>Vostra illustrissima signoria per mie lettere <date when="29 aprile 1467">heri</date> fu avisata del mio giungere a <name type="place">Lode</name> et de quanto era seguito fin in quella hora. Per questa mo restarà avisata come heri sira, dopoi fu cenato d’uno pezo insieme col illustrissimo signore duca vostro figliolo et mio fratello, tolse licencia da soa signoria per poterme questa matina ad bona hora aviarme al camino mio, come ho facto, et andai ad allozare et dormire ad casa de <name type="person">Gabriele da Barni</name>, thexaurero et cittadino de quella vostra cità, dal qual fui, per respecto de vostra signoria, benveduto, accarezato et honorato. Poi questa matina, olduta la messa, venne ad disnare ad <name type="place">Pizghitone</name>, dove fui similmente benveduto dal comissario et quelli vostri homini, quali me presentareno doe somme de biava da cavalli. Essendo poi <time when="19:00">circa le xviiii° hore</time>, montato ad cavallo per venire verso questa vostra devotissima cità, nela quale giunse circa le <time when="22:00">xxii hore</time> sano et de bona voglia, havendo incontrato <name type="person">Iohannefrancesco Stangha</name> de là d’<name type="place">Aquanegra</name>uno bon pezo, et ad <name type="place">Marasco</name> tutti questi vostri officiali, insieme con <name type="person">Pagano Ponzono</name>,<name type="person">Stefano da Cambiago</name>,<name type="person">Carlo Tinto</name>,<name type="person">Fabricio</name> et <name type="person">Cosme Ponzoni</name>,<name type="person">Bartholomeo da <name type="place">Salerno</name></name>, <name type="person">Baldesarre di Melii</name>,<name type="person"> Iohanne Regazo</name>,<name type="person">Iohanne da Rezo</name>,<name type="person">Iohanne Bono</name>,<name type="person">Marsilio <choice resp="#AB"><orig>Fondu</orig><reg>Fondulo</reg></choice></name> et ser <name type="person">Simone da <name type="place">Spoleto</name></name>, quali tutti recolti da mi con una bona cera et con quello megliore modo me fu possibile, me fecero compagnia fin qua al castello, qual ho trovato ornato de tanti belli et ameni zardini che ‘l me pare essere tutto renovato et intrato nel paradiso terrestre, et quanto vostra excellentia lo vederà, non dubito serà, in questo, de quello medesmo apparere sono io, oltra ch’io gli farò fare qualchi melioramenti quando me avanzarà tempo, acioché, venendo qua come ha rasonato più volte de volerli venire, possi, presso ale grande occupatione et continui affanni ha, prendere qualche recreatione et piacere.</p>
+			<p> Ali pedi et gratia de vostra signoria de continuo me recomando.</p>
+			<p>Ex castro vostro <name type="place">Cremone</name>, 
+			<date when="30 aprile 1467">die ultimo Aprilis 1467</date>. Eiusdem illustrissime dominationis vestre devotissimus filius et servitor <name type="persona">Ludovicus Maria Sfortia Vicecomes</name>.</p>
+		</body>
+	</text>
+</TEI>
