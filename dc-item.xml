@@ -11,7 +11,7 @@
 			<dc:contributor xml:id="AB">Alessandra Borghesi</dc:contributor>
 			<dc:type>Lettera</dc:type>
 			<dc:format>text/html</dc:format>
-			<dc:identifier>file:///C:/Users/aless/Desktop/progetto-DH/item.html</dc:identifier>
+			<dc:identifier xsi:type="dcterms:URI">file:///C:/Users/aless/Desktop/progetto-DH/item.html</dc:identifier>
 			<dc:language>ita</dc:language>
 			<dc:coverage>Milano, Italia</dc:coverage>
 			<dc:source>https://www.lombardiabeniculturali.it/archivi/complessi-archivistici/MIBA002409/</dc:source>
